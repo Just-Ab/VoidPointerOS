@@ -1,0 +1,13 @@
+# === Basic machine setup ===
+megs: 16
+romimage: file="C:\Program Files\Bochs-3.0\BIOS-bochs-latest"
+vgaromimage: file="C:\Program Files\Bochs-3.0\VGABIOS-lgpl-latest.bin"
+
+# === Use your floppy image ===
+floppya: 1_44="build/boot.img", status=inserted
+boot: a
+
+# === Start in debugger mode ===
+display_library: win32
+magic_break: enabled=1
+log: bochslog.txt
