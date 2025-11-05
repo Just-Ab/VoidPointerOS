@@ -1,0 +1,9 @@
+/log
+/Tools
+/Bin
+/Object
+/Build
+/bochslog.txt
+/bochsrc.txt
+assemble_run_debug.bat
+assemble_run.bat
