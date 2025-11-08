@@ -28,7 +28,7 @@ push [drive_number]  ; drive
 push 0x0000          ; head
 push 0x0000          ; cylinder
 push 0x0003          ; sector start (1-based)
-push 0x0005          ; count
+push 0x0007          ; count
 push 0x0000          ; segment
 push 0x1000          ; offset
 
